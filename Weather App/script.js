@@ -66,15 +66,15 @@ form.addEventListener('submit', function (e) {
                     bgColor = '#494bcf';
                     break;
                 case 'Drizzle':
-                    imageSrc = './Images/Drizzle.png';
+                    imageSrc = './Images/drizzle.png';
                     bgColor = '#8ecfcf';
                     break;
                 case 'Haze':
-                    imageSrc = './Images/Drizzle.png';
+                    imageSrc = './Images/haze.png';
                     bgColor = '#d8ced2';
                     break;
                 default:
-                    imageSrc = '';
+                    imageSrc = './Images/mist.png';
                     bgColor = '#66e3e2';
             }
             image.src = imageSrc;
@@ -95,3 +95,4 @@ form.addEventListener('submit', function (e) {
         myCity.innerHTML = 'Error fetching data';
     });
 });
+
